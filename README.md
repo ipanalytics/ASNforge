@@ -23,44 +23,44 @@ ASNForge builds reproducible ASN and prefix-origin intelligence artifacts for IP
 
 | Field | Value |
 | --- | ---: |
-| Build ID | `20260905-074127Z` |
+| Build ID | `20260906-075531Z` |
 | Profile | `public-safe` |
-| Generated | `2026-09-05T07:41:27Z` |
+| Generated | `2026-09-06T07:55:31Z` |
 | Quality | `PASS` |
 | ASN profiles | 140,503 |
-| Named ASN profiles | 122,032 |
-| Prefixes | 1,468,861 |
-| MMDB inserted prefixes | 1,468,861 |
-| MOAS prefixes | 11,907 |
+| Named ASN profiles | 122,043 |
+| Prefixes | 1,469,505 |
+| MMDB inserted prefixes | 1,469,505 |
+| MOAS prefixes | 11,805 |
 | Private ASN records | 163 |
 | Reserved ASN records | 28 |
 | Unknown type ASNs | 126,362 |
-| Build duration seconds | 71.24 |
+| Build duration seconds | 54.74 |
 
 ## Sources
 
 | Name | URL | Size | SHA256 |
 | --- | --- | ---: | --- |
-| `afrinic` | [delegated-afrinic-extended-latest](https://ftp.afrinic.net/pub/stats/afrinic/delegated-afrinic-extended-latest) | 992,300 | `83a42dfb264d` |
-| `apnic` | [delegated-apnic-extended-latest](https://ftp.apnic.net/stats/apnic/delegated-apnic-extended-latest) | 9,219,120 | `692bd718ed06` |
-| `arin` | [delegated-arin-extended-latest](https://ftp.arin.net/pub/stats/arin/delegated-arin-extended-latest) | 12,779,534 | `e2a2c3cb5334` |
-| `lacnic` | [delegated-lacnic-extended-latest](https://ftp.lacnic.net/pub/stats/lacnic/delegated-lacnic-extended-latest) | 4,558,856 | `0de872bc85d7` |
-| `ripe` | [delegated-ripencc-extended-latest](https://ftp.ripe.net/pub/stats/ripencc/delegated-ripencc-extended-latest) | 18,048,119 | `9a55d81d3709` |
-| `ed2d58969c8c-table.jsonl` | [table.jsonl](https://bgp.tools/table.jsonl) | 75,715,039 | `8134f2bbc4d8` |
-| `asn_catalog` | [asns.csv](https://bgp.tools/asns.csv) | 5,565,835 | `745163425da9` |
+| `afrinic` | [delegated-afrinic-extended-latest](https://ftp.afrinic.net/pub/stats/afrinic/delegated-afrinic-extended-latest) | 992,300 | `d1986edcc984` |
+| `apnic` | [delegated-apnic-extended-latest](https://ftp.apnic.net/stats/apnic/delegated-apnic-extended-latest) | 9,219,139 | `09a40da1da4f` |
+| `arin` | [delegated-arin-extended-latest](https://ftp.arin.net/pub/stats/arin/delegated-arin-extended-latest) | 12,780,578 | `3638b266d9aa` |
+| `lacnic` | [delegated-lacnic-extended-latest](https://ftp.lacnic.net/pub/stats/lacnic/delegated-lacnic-extended-latest) | 4,558,856 | `c7af1260fde9` |
+| `ripe` | [delegated-ripencc-extended-latest](https://ftp.ripe.net/pub/stats/ripencc/delegated-ripencc-extended-latest) | 18,048,157 | `926340085fc2` |
+| `ed2d58969c8c-table.jsonl` | [table.jsonl](https://bgp.tools/table.jsonl) | 75,740,393 | `0d1ccdaaea1c` |
+| `asn_catalog` | [asns.csv](https://bgp.tools/asns.csv) | 5,566,466 | `7f5c2f998302` |
 | `asn_signals` | [asn-signals.csv](https://raw.githubusercontent.com/ipanalytics/IP-Knowledge-Layer/main/data/current/asn-signals.csv) | 119 | `f27bb5dba8a1` |
-| `asn_signals` | [asn-signals.csv](https://raw.githubusercontent.com/ipanalytics/ASN-Signal-Graph/main/data/current/asn-signals.csv) | 610,469 | `2b7d94a31c75` |
+| `asn_signals` | [asn-signals.csv](https://raw.githubusercontent.com/ipanalytics/ASN-Signal-Graph/main/data/current/asn-signals.csv) | 610,139 | `b70e4521d58d` |
 
 ## Artifacts
 
 | Artifact | Size | Records |
 | --- | ---: | ---: |
-| `asnforge-asn.csv.gz` | 2,863,066 | 140,503 |
-| `asnforge-asn.jsonl.gz` | 3,626,984 | 140,503 |
+| `asnforge-asn.csv.gz` | 2,863,403 | 140,503 |
+| `asnforge-asn.jsonl.gz` | 3,627,111 | 140,503 |
 | `asnforge-diff.json` | 224 | - |
-| `asnforge-prefixes.csv.gz` | 8,889,063 | 1,468,861 |
-| `asnforge-prefixes.jsonl.gz` | 10,854,743 | 1,468,861 |
-| `asnforge.mmdb.gz` | 6,176,873 | 1,468,861 |
+| `asnforge-prefixes.csv.gz` | 8,899,519 | 1,469,505 |
+| `asnforge-prefixes.jsonl.gz` | 10,866,422 | 1,469,505 |
+| `asnforge.mmdb.gz` | 6,176,875 | 1,469,505 |
 | `manifest.json` | 3,719 | - |
 | `quality-report.md` | 2,664 | - |
 
@@ -82,6 +82,7 @@ ASNForge builds reproducible ASN and prefix-origin intelligence artifacts for IP
 
 No warnings or errors.
 <!-- ASNFORGE:RELEASE-STATS END -->
+
 
 
 
