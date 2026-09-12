@@ -48,7 +48,8 @@ jobs:
           if [[ "$GITHUB_REF_TYPE" == "tag" ]]; then
             echo "tag=$GITHUB_REF_NAME" >> "$GITHUB_OUTPUT"
           else
-            echo "tag=data-$(date -u +%Y%m%d-%H%M%SZ)" >> "$GITHUB_OUTPUT"
+            # rolling-тег: страница релиза одна, ассеты обновляются каждый прогон
+            echo "tag=data-current" >> "$GITHUB_OUTPUT"
           fi
       - name: publish GitHub release
         uses: softprops/action-gh-release@v2
