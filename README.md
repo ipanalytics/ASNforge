@@ -25,44 +25,44 @@ ASNForge builds reproducible ASN and prefix-origin intelligence artifacts for IP
 
 | Field | Value |
 | --- | ---: |
-| Build ID | `20261106-105549Z` |
+| Build ID | `20261107-101422Z` |
 | Profile | `public-safe` |
-| Generated | `2026-11-06T10:55:49Z` |
+| Generated | `2026-11-07T10:14:22Z` |
 | Quality | `PASS` |
-| ASN profiles | 140,488 |
-| Named ASN profiles | 122,972 |
-| Prefixes | 1,486,519 |
-| MMDB inserted prefixes | 1,486,519 |
-| MOAS prefixes | 13,865 |
-| Private ASN records | 153 |
+| ASN profiles | 140,482 |
+| Named ASN profiles | 122,960 |
+| Prefixes | 1,487,398 |
+| MMDB inserted prefixes | 1,487,398 |
+| MOAS prefixes | 13,888 |
+| Private ASN records | 147 |
 | Reserved ASN records | 28 |
-| Unknown type ASNs | 126,291 |
-| Build duration seconds | 71.61 |
+| Unknown type ASNs | 126,287 |
+| Build duration seconds | 66.15 |
 
 ## Sources
 
 | Name | URL | Size | SHA256 |
 | --- | --- | ---: | --- |
 | `afrinic` | [delegated-afrinic-extended-latest](https://ftp.afrinic.net/pub/stats/afrinic/delegated-afrinic-extended-latest) | 1,008,090 | `34cb5da381a3` |
-| `apnic` | [delegated-apnic-extended-latest](https://ftp.apnic.net/stats/apnic/delegated-apnic-extended-latest) | 9,294,957 | `5ef1336141ea` |
-| `arin` | [delegated-arin-extended-latest](https://ftp.arin.net/pub/stats/arin/delegated-arin-extended-latest) | 12,907,707 | `482146063ceb` |
-| `lacnic` | [delegated-lacnic-extended-latest](https://ftp.lacnic.net/pub/stats/lacnic/delegated-lacnic-extended-latest) | 4,581,938 | `31b3b017c66f` |
-| `ripe` | [delegated-ripencc-extended-latest](https://ftp.ripe.net/pub/stats/ripencc/delegated-ripencc-extended-latest) | 18,124,574 | `4ecf51d766c8` |
-| `ed2d58969c8c-table.jsonl` | [table.jsonl](https://bgp.tools/table.jsonl) | 76,706,427 | `15db27a22eef` |
-| `asn_catalog` | [asns.csv](https://bgp.tools/asns.csv) | 5,607,042 | `bb0ba9976edd` |
+| `apnic` | [delegated-apnic-extended-latest](https://ftp.apnic.net/stats/apnic/delegated-apnic-extended-latest) | 9,296,496 | `d7ef4ca31a7b` |
+| `arin` | [delegated-arin-extended-latest](https://ftp.arin.net/pub/stats/arin/delegated-arin-extended-latest) | 12,909,730 | `087089183b3a` |
+| `lacnic` | [delegated-lacnic-extended-latest](https://ftp.lacnic.net/pub/stats/lacnic/delegated-lacnic-extended-latest) | 4,582,284 | `b2a2580f4e17` |
+| `ripe` | [delegated-ripencc-extended-latest](https://ftp.ripe.net/pub/stats/ripencc/delegated-ripencc-extended-latest) | 18,125,112 | `3bfd856a4ac6` |
+| `ed2d58969c8c-table.jsonl` | [table.jsonl](https://bgp.tools/table.jsonl) | 76,753,426 | `a7a5b4924095` |
+| `asn_catalog` | [asns.csv](https://bgp.tools/asns.csv) | 5,606,595 | `a5a9149e5b28` |
 | `asn_signals` | [asn-signals.csv](https://raw.githubusercontent.com/ipanalytics/IP-Knowledge-Layer/main/data/current/asn-signals.csv) | 119 | `f27bb5dba8a1` |
-| `asn_signals` | [asn-signals.csv](https://raw.githubusercontent.com/ipanalytics/ASN-Signal-Graph/main/data/current/asn-signals.csv) | 608,648 | `3cf424fdb8b2` |
+| `asn_signals` | [asn-signals.csv](https://raw.githubusercontent.com/ipanalytics/ASN-Signal-Graph/main/data/current/asn-signals.csv) | 608,866 | `27a86e312757` |
 
 ## Artifacts
 
 | Artifact | Size | Records |
 | --- | ---: | ---: |
-| `asnforge-asn.csv.gz` | 2,880,674 | 140,488 |
-| `asnforge-asn.jsonl.gz` | 3,647,904 | 140,488 |
+| `asnforge-asn.csv.gz` | 2,880,567 | 140,482 |
+| `asnforge-asn.jsonl.gz` | 3,647,837 | 140,482 |
 | `asnforge-diff.json` | 224 | - |
-| `asnforge-prefixes.csv.gz` | 9,004,590 | 1,486,519 |
-| `asnforge-prefixes.jsonl.gz` | 10,993,669 | 1,486,519 |
-| `asnforge.mmdb.gz` | 6,215,844 | 1,486,519 |
+| `asnforge-prefixes.csv.gz` | 8,859,009 | 1,487,398 |
+| `asnforge-prefixes.jsonl.gz` | 10,893,898 | 1,487,398 |
+| `asnforge.mmdb.gz` | 6,216,901 | 1,487,398 |
 | `manifest.json` | 3,719 | - |
 | `quality-report.md` | 2,665 | - |
 
@@ -84,6 +84,7 @@ ASNForge builds reproducible ASN and prefix-origin intelligence artifacts for IP
 
 No warnings or errors.
 <!-- ASNFORGE:RELEASE-STATS END -->
+
 
 
 
